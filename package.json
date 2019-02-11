@@ -1,0 +1,25 @@
+{
+  "name": "zamera.github.io",
+  "version": "1.0.0",
+  "description": "HTML version of zamera's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zamera/zamera.github.io.git"
+  },
+  "keywords": [
+    "zamera",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "ZAMERA, Lda.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zamera/zamera.github.io/issues"
+  },
+  "homepage": "https://github.com/zamera/zamera.github.io#readme"
+}
