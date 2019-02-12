@@ -1,0 +1,7 @@
+.coming-soon {
+	&__body {
+		height: 100vh;
+		background-image: linear-gradient(to right, $color-primary-light, $color-primary);
+		padding: 0 9rem;
+	}
+}
