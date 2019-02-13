@@ -3,5 +3,10 @@
 		height: 100vh;
 		background-image: linear-gradient(to right, $color-primary-light, $color-primary);
 		padding: 0 9rem;
+		position: relative;
+	}
+	
+	&__hero {
+		height: 43.2rem;
 	}
 }

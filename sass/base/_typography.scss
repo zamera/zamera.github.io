@@ -1,3 +1,22 @@
 body {
 	font-family: "Open Sans", sans-serif;
 }
+
+.heading-primary {
+	font-size: 3.6rem;
+	text-transform: uppercase;
+	font-weight: 700;
+
+	&--white {
+		color: $color-white;
+	}
+}
+
+.paragraph-primary {
+	font-size: $default-font-size;
+	font-weight: 400;
+
+	&--white {
+		color: $color-white;
+	}
+}

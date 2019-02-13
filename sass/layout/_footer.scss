@@ -1,0 +1,24 @@
+.footer {
+	text-align: center;
+	// position: fixed;
+	// bottom: 2rem;
+	// left: 50%;
+	// transform: translateX(-50%);
+
+
+
+	&__logo{
+		width: 3.4rem;
+		height: auto;
+	}
+
+	&__link{
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: $color-white;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+	}
+}
