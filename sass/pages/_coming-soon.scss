@@ -2,11 +2,23 @@
 	&__body {
 		height: 100vh;
 		background-image: linear-gradient(to right, $color-primary-light, $color-primary);
-		padding: 0 9rem;
+		// padding: 0 9rem;
 		position: relative;
 	}
 	
 	&__hero {
 		height: 43.2rem;
 	}
+
+	// &__copyright {
+	// 	position: absolute;
+	// 	bottom: 0;
+	// 	left: 50%;
+	// }
+}
+
+
+.form-box, .leaf-box {
+	position: relative;
+	height: 39.6rem;
 }

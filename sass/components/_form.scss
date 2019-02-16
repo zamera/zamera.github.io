@@ -1,5 +1,7 @@
 .form {
 
+	@include absolute-middle-left;
+
 	&__input-group {}
 
 	&__text-input {
@@ -7,7 +9,11 @@
 		padding: 1.5rem 2.1rem;
 		border: none;
 		font-size: $default-font-size;
-		width: 35.4rem;
+		width: 35.3rem;
 		margin-right: 1.8rem;
+		
+		&:focus{
+			outline: none;
+		}
 	}
 }

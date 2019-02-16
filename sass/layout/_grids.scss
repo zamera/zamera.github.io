@@ -1,0 +1,25 @@
+.row {
+	max-width: $grid-width;
+	margin: 0 auto;
+	
+
+	&:not(:last-child) {
+		margin-bottom: $row-gutter;
+	}
+
+	@include clearfix;
+	
+	[class^="col-"] {
+		float: left;
+		padding: 1rem;
+
+		&:not(:last-child) {
+			margin-right: $col-gutter;
+		}
+	}
+
+
+	.col-1-of-2 {
+		width: calc((100% - #{$col-gutter})/2);
+	}
+}

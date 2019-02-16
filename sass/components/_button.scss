@@ -4,12 +4,27 @@
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: $default-font-size;
-	padding: 1.5rem 4.9rem;
+	padding: 1.5rem 3.1rem;
 	box-shadow: 0 .4rem .5rem rgba($color-black, .16);
 	cursor: pointer;
+	transition: all .2s;
+
+	&:focus {
+		outline: none;
+	}
 
 	&--white {
 		color: $color-primary;
 		background-color: $color-white;
+	}
+
+	&:hover {
+		box-shadow: 0 .6rem .9rem rgba($color-black, .16);
+		transform: translateY(-.1rem) scale(1.02);
+	}
+
+	&:active {
+		box-shadow: 0 .3rem .4rem rgba($color-black, .16);
+		transform: translateY(0rem) scale(1);
 	}
 }
